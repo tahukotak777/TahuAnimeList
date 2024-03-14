@@ -2,6 +2,7 @@ import { Gabarito } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 import NavBarBottom from "@/components/NavBarBottom";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const gabarito = Gabarito({ subsets: ["latin"] });
 
@@ -15,10 +16,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${gabarito.className} bg-main-dark`}>
         <NavBar />
-        <div className="mb-14">
-          {children}
-        </div>
+        <div className="mb-14">{children}</div>
         <NavBarBottom />
+        <SpeedInsights />
       </body>
     </html>
   );
