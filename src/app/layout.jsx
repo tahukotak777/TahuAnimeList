@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 import NavBarBottom from "@/components/NavBarBottom";
-import { SpeedInsights } from "@vercel/speed-insights/next";koko777
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 
 const inter = Inter({ subsets: ['latin'] })
