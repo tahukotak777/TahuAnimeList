@@ -23,13 +23,13 @@ const Page = () => {
   return (
     <div>
       <div className="flex overflow-x-auto flex-row flex-nowrap md:justify-center w-full">
-        <ButtonScroll day="Senin" setDay={setDay}/>
-        <ButtonScroll day="Selasa" setDay={setDay}/>
-        <ButtonScroll day="Rabu" setDay={setDay}/>
-        <ButtonScroll day="Kamis" setDay={setDay}/>
-        <ButtonScroll day="Jumat" setDay={setDay}/>
-        <ButtonScroll day="Sabtu" setDay={setDay}/>
-        <ButtonScroll day="Minggu" setDay={setDay}/>
+        <ButtonScroll day="Senin" setDay={setDay} currentDay={day}/>  
+        <ButtonScroll day="Selasa" setDay={setDay} currentDay={day}/>
+        <ButtonScroll day="Rabu" setDay={setDay} currentDay={day}/>
+        <ButtonScroll day="Kamis" setDay={setDay} currentDay={day}/>
+        <ButtonScroll day="Jumat" setDay={setDay} currentDay={day}/>
+        <ButtonScroll day="Sabtu" setDay={setDay} currentDay={day}/>
+        <ButtonScroll day="Minggu" setDay={setDay} currentDay={day}/>
       </div>
       <div className="">
         <Header title={day} />

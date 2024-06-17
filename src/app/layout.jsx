@@ -4,7 +4,6 @@ import NavBar from "@/components/NavBar";
 import NavBarBottom from "@/components/NavBarBottom";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {

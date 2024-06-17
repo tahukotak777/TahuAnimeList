@@ -8,7 +8,7 @@ const Page = async ({ params: { id } }) => {
   const anime = await apiAnimeResponse(`anime/${id}/full`);
 
   return (
-    <div className="">
+    <div>
       <div className="pt-4 px-4">
         <h2 className="text-main-primary text-2xl">{`${anime.data.title} - (${anime.data.year})`}</h2>
       </div>
