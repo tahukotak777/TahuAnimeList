@@ -31,7 +31,7 @@ const Page = () => {
         <ButtonScroll day="Sabtu" setDay={setDay} currentDay={day}/>
         <ButtonScroll day="Minggu" setDay={setDay} currentDay={day}/>
       </div>
-      <div className="">
+      <div>
         <Header title={day} />
         <AnimeListsV2 api={apiSchedules} />
       </div>

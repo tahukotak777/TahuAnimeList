@@ -1,10 +1,10 @@
-import { Inter } from 'next/font/google'
+import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 import NavBarBottom from "@/components/NavBarBottom";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "TahuAnimeList",
@@ -14,6 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/logo.png" />
       <body className={`${inter.className} bg-main-dark`}>
         <NavBar />
         <div className="mb-14">{children}</div>
