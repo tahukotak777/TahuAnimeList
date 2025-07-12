@@ -1,36 +1,161 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍟 TahuAnimeList
 
-## Getting Started
+<div align="center">
+  <img src="https://via.placeholder.com/800x400/FF6B6B/FFFFFF?text=TahuAnimeList+🍟" alt="TahuAnimeList Banner" />
+  
+  <p>
+    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  </p>
+  
+  <p>
+    <img src="https://img.shields.io/github/stars/tahukotak777/TahuAnimeList?style=social" alt="GitHub Stars" />
+    <img src="https://img.shields.io/github/forks/tahukotak777/TahuAnimeList?style=social" alt="GitHub Forks" />
+    <img src="https://img.shields.io/github/issues/tahukotak777/TahuAnimeList" alt="GitHub Issues" />
+    <img src="https://img.shields.io/github/license/tahukotak777/TahuAnimeList" alt="License" />
+  </p>
+</div>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Web aplikasi daftar anime yang dibuat dengan Next.js, terinspirasi dari tutorial YouTube Bang Dea Afrizal.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Screenshots
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<div align="center">
+  
+  ### 🏠 Homepage
+  <img src="https://via.placeholder.com/700x400/4ECDC4/FFFFFF?text=Homepage+Screenshot+📱" alt="Homepage Screenshot" />
+  
+  ### 🔍 Search Feature
+  <img src="https://via.placeholder.com/700x400/45B7D1/FFFFFF?text=Search+Feature+🔍" alt="Search Feature Screenshot" />
+  
+  ### 📋 Anime List
+  <img src="https://via.placeholder.com/700x400/96CEB4/FFFFFF?text=Anime+List+📋" alt="Anime List Screenshot" />
+  
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+TahuAnimeList adalah aplikasi web untuk mengelola dan menjelajahi daftar anime favorit Anda. Aplikasi ini dibuat menggunakan Next.js dan menyediakan antarmuka yang user-friendly untuk para penggemar anime.
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Fitur
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📱 **Responsive Design** - Tampilan yang optimal di semua perangkat
+- 🔍 **Pencarian Anime** - Cari anime berdasarkan judul
+- 📋 **Daftar Anime** - Kelola anime favorit Anda
+- 🎨 **UI Modern** - Desain yang bersih dan modern
+- ⚡ **Fast Loading** - Performa yang optimal dengan Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🛠️ Teknologi yang Digunakan
 
-## Deploy on Vercel
+- [Next.js](https://nextjs.org/) - React framework untuk produksi
+- [React](https://reactjs.org/) - Library untuk membangun user interface
+- [CSS/Tailwind](https://tailwindcss.com/) - Untuk styling
+- [Node.js](https://nodejs.org/) - Runtime environment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚀 Instalasi dan Menjalankan Proyek
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Prasyarat
+
+Pastikan Anda telah menginstal:
+- Node.js (versi 18 atau lebih baru)
+- npm, yarn, pnpm, atau bun
+
+### Langkah-langkah
+
+1. **Clone repositori**
+   ```bash
+   git clone https://github.com/tahukotak777/TahuAnimeList.git
+   cd TahuAnimeList
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # atau
+   yarn install
+   # atau
+   pnpm install
+   # atau
+   bun install
+   ```
+
+3. **Jalankan development server**
+   ```bash
+   npm run dev
+   # atau
+   yarn dev
+   # atau
+   pnpm dev
+   # atau
+   bun dev
+   ```
+
+4. **Buka aplikasi**
+   
+   Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
+
+## 📝 Cara Menggunakan
+
+1. Buka aplikasi di browser
+2. Jelajahi daftar anime yang tersedia
+3. Gunakan fitur pencarian untuk menemukan anime tertentu
+4. Tambahkan anime ke daftar favorit Anda
+5. Kelola koleksi anime Anda dengan mudah
+
+## 🌟 Pengembangan
+
+Anda dapat mulai mengedit aplikasi dengan memodifikasi file `app/page.js`. Halaman akan otomatis ter-update saat Anda mengedit file.
+
+Proyek ini menggunakan [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) untuk mengoptimalkan dan memuat Inter, sebuah custom Google Font.
+
+## 📚 Sumber Belajar
+
+Untuk mempelajari lebih lanjut tentang Next.js, lihat sumber daya berikut:
+
+- [Dokumentasi Next.js](https://nextjs.org/docs) - pelajari fitur dan API Next.js
+- [Tutorial Next.js](https://nextjs.org/learn) - tutorial interaktif Next.js
+- [Repositori GitHub Next.js](https://github.com/vercel/next.js/) - feedback dan kontribusi sangat diterima!
+
+## 🚢 Deployment
+
+Cara termudah untuk men-deploy aplikasi Next.js Anda adalah menggunakan [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dari pembuat Next.js.
+
+Lihat [dokumentasi deployment Next.js](https://nextjs.org/docs/deployment) untuk detail lebih lanjut.
+
+## 🎥 Inspirasi
+
+Proyek ini terinspirasi dari tutorial YouTube Bang Dea Afrizal. Terima kasih atas inspirasi dan pembelajaran yang berharga!
+
+## 🤝 Kontribusi
+
+Kontribusi sangat diterima! Jika Anda memiliki saran untuk meningkatkan aplikasi ini, silakan:
+
+1. Fork repositori
+2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
+3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`)
+4. Push ke branch (`git push origin feature/AmazingFeature`)
+5. Buat Pull Request
+
+## 📄 Lisensi
+
+Proyek ini dibuat untuk tujuan pembelajaran dan pengembangan. Silakan gunakan dan modifikasi sesuai kebutuhan Anda.
+
+## 👨‍💻 Pembuat
+
+**tahukotak777**
+
+- GitHub: [@tahukotak777](https://github.com/tahukotak777)
+
+## 🙏 Terima Kasih
+
+- Bang Dea Afrizal untuk inspirasi dan tutorial
+- Komunitas Next.js untuk dokumentasi yang luar biasa
+- Semua kontributor yang telah membantu pengembangan proyek ini
+
+---
+
+⭐ Jangan lupa untuk memberikan star jika proyek ini membantu Anda!
