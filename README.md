@@ -24,7 +24,7 @@ Web aplikasi daftar anime yang dibuat dengan Next.js, terinspirasi dari tutorial
 
 <div align="center">
   
-  <img src="https://i.postimg.cc/fLKTPMff/Screenshot-7.png" alt="Homepage Screenshot" />
+  <img src="https://i.postimg.cc/bvMwcm7s/ss.png" alt="Homepage Screenshot" />
 
 </div>
 
