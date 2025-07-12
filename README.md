@@ -1,8 +1,6 @@
 # 🍟 TahuAnimeList
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/FF6B6B/FFFFFF?text=TahuAnimeList+🍟" alt="TahuAnimeList Banner" />
-  
   <p>
     <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
@@ -26,15 +24,8 @@ Web aplikasi daftar anime yang dibuat dengan Next.js, terinspirasi dari tutorial
 
 <div align="center">
   
-  ### 🏠 Homepage
-  <img src="https://via.placeholder.com/700x400/4ECDC4/FFFFFF?text=Homepage+Screenshot+📱" alt="Homepage Screenshot" />
-  
-  ### 🔍 Search Feature
-  <img src="https://via.placeholder.com/700x400/45B7D1/FFFFFF?text=Search+Feature+🔍" alt="Search Feature Screenshot" />
-  
-  ### 📋 Anime List
-  <img src="https://via.placeholder.com/700x400/96CEB4/FFFFFF?text=Anime+List+📋" alt="Anime List Screenshot" />
-  
+  <img src="https://i.postimg.cc/fLKTPMff/Screenshot-7.png" alt="Homepage Screenshot" />
+
 </div>
 
 ---
