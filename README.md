@@ -137,9 +137,9 @@ Proyek ini dibuat untuk tujuan pembelajaran dan pengembangan. Silakan gunakan da
 
 ## 👨‍💻 Pembuat
 
-**tahukotak777**
+**Farel Nanda S**
 
-- GitHub: [@tahukotak777](https://github.com/tahukotak777)
+- GitHub: [@FarelNandaS](https://github.com/FarelNandaS)
 
 ## 🙏 Terima Kasih
 
